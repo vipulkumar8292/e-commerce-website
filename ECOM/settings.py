@@ -147,3 +147,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = "/images/download/"
  
 MEDIA_ROOT = BASE_DIR
+
+APPEND_SLASH = False
