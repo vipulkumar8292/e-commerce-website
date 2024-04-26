@@ -79,16 +79,16 @@ WSGI_APPLICATION = 'ECOM.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dvnb3nmq7gs3j',
-        'USER': 'yzaaipgpmgsxid',
-        'PASSWORD': '3c6ac85502bc840b1710f7e33d9b76c67469e3f84f1f00bebecc81d29b46c1dd',
-        'HOST': 'ec2-52-203-74-38.compute-1.amazonaws.com',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd72rs3uoeg0akq',
+        'USER': 'ub16opuhneok5u',
+        'PASSWORD': 'p33432506feca1ed576cee853c21faf614f8f7122077618a9e3c88494473f2394',
+        'HOST': 'c9pbiquf6p6pfn.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
 
-
+#postgres://ub16opuhneok5u:p33432506feca1ed576cee853c21faf614f8f7122077618a9e3c88494473f2394@c9pbiquf6p6pfn.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d72rs3uoeg0akq
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
